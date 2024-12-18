@@ -48,13 +48,32 @@ public class Main {
 //        System.out.println("Double max " + maxValue);
 //        System.out.println("Double min " + minValue);
 
-        char letter = 'A';
+//        char letter = 'A';
+//
+//        System.out.println(letter);
+//
+//        boolean isActive = true;
+//
+//        System.out.println(isActive);
 
-        System.out.println(letter);
+//        OPERATORS.
+//
+//        int num = 5;
+//        int num2 = 3;
+//
+//        System.out.println(num + num2);
+//        System.out.println(num - num2);
+//        System.out.println(num * num2);
+//        System.out.println(num / num2);
+//        System.out.println(num % num2);
+//        System.out.println((num + num2) * 4);
 
-        boolean isActive = true;
+        int myNumber = 0;
+        myNumber++;
+        myNumber = myNumber + 1;
+        myNumber *= 1;
 
-        System.out.println(isActive);
+        System.out.println(myNumber);
 
 
     }
