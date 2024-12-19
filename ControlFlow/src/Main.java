@@ -51,5 +51,18 @@ public class Main {
 //     } else {
 //         System.out.println("False conditions");
 //     }
+
+        int time = 13;
+
+        switch (time) {
+            case 10:
+                System.out.println("time is " + time);
+                break;
+            case 12:
+                System.out.println("timme is " + time);
+                break;
+            default:
+                System.out.println("time is " + time);
+        }
     }
 }
