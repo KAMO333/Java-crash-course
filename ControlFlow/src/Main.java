@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
+    public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
+
 
 //        int age = 17;
 //
@@ -51,8 +55,8 @@ public class Main {
 //     } else {
 //         System.out.println("False conditions");
 //     }
-
-        int time = 13;
+        System.out.println("Enter time: ");
+        int time = scanner.nextInt();
 
         switch (time) {
             case 10:
@@ -63,6 +67,7 @@ public class Main {
                 break;
             default:
                 System.out.println("time is " + time);
+                break;
         }
     }
 }
